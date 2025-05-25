@@ -21,4 +21,5 @@ Python · Pandas · Seaborn · Scikit-learn · XGBoost · Matplotlib
 - Type of Travel
 
 ## Presentation
- [Click to view project presentation](Airline Passenger Satisfaction Prediction.pptx)
+ [Click to view project presentation](Airline%20Passenger%20Satisfaction%20Prediction.pptx)
+
