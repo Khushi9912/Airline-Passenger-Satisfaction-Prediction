@@ -1,25 +1,61 @@
-# Airline Passenger Satisfaction Prediction
+#  Airline Passenger Satisfaction Prediction
 
-A Machine Learning **classification** project that predicts customer satisfaction using **XGBoost**, **Random Forest**, and **Logistic Regression**.  
-Includes **EDA**, **outlier handling**, **data cleaning**, and **feature engineering**, with a top model accuracy of **96.56%**.
+## Problem Statement
+A Machine Learning classification project that predicts customer satisfaction using demographic and service-related data collected by airlines.
 
 ## Dataset Info
-- 129,880 rows × 24 columns
+- Records: 129,880 rows × 24 columns
 - Target: `Satisfaction` (Satisfied / Neutral or Dissatisfied)
 
-## Tools Used
-Python · Pandas · Seaborn · Scikit-learn · XGBoost · Matplotlib
+## Project Highlights
+-  Exploratory Data Analysis (EDA)
+-  Outlier handling
+-  Data cleaning
+-  Feature engineering
+-  Trained 3 ML models
 
-## Model Performance
-- **Logistic Regression** – 83% accuracy
-- **Random Forest** – 96.45% accuracy
-- **XGBoost** – **96.56% accuracy (Best Performer!)**
+##  Tools & Libraries Used
+- Python
+- Pandas, NumPy
+- Seaborn, Matplotlib
+- Scikit-learn
+- XGBoost
 
-## Key Features
-- Online Boarding
-- In-flight WiFi Service
-- Type of Travel
+##  Model Performance
+ Model                 Accuracy   
+ Logistic Regression - 83.00%     
+ Random Forest       - 96.45%     
+ **XGBoost**         - **96.56% ** (Best Performer)
 
-## Presentation
- [Click to view project presentation](Airline_Satisfaction_Presentation.pptx)
+##  Key Features Impacting Satisfaction
+- **Online Boarding**
+- **In-flight WiFi Service**
+- **Type of Travel**
+- **Seat Comfort**
+- **Arrival Delay in Minutes**
+
+## Insights & Findings
+- Passengers traveling for business were generally more satisfied.
+- Online boarding and WiFi services played a crucial role in satisfaction.
+- Higher arrival delays significantly decreased satisfaction.
+
+## Future Improvements
+- Hyperparameter tuning
+- Deployment via Streamlit
+- More advanced models like CatBoost or LightGBM
+
+## Files Included
+- `Airline_Passenger_Satisfaction_Prediction.ipynb` – Jupyter notebook with code
+- `airline_passenger_satisfaction.csv` – Dataset used
+- `Airline Passenger Satisfaction Prediction.pptx` – Project presentation
+ **-[Click to view project presentation](#)** https://docs.google.com/presentation/d/1nHcN81UXnMGKjaqCLJ-aCI_xXNldURj5/edit?usp=sharing&ouid=113131191853271537690&rtpof=true&sd=true
+
+---
+
+### Author
+**Khushi** – Data Science Learner  
+khushipal1299@gmail.com
+https://www.linkedin.com/in/khushi-pal-490451214/
+
+
 
